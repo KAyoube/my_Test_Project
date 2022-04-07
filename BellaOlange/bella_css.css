@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.bloc_page{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+header img{
+    width: 30%;
+}
+
+.fond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./Images/Fond.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.plat{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid orange;
+    margin-bottom: 5%;
+    width: 96%;
+    height: 33%;
+}
+img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+}
+
+.nom_prix{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nom_prix p{
+    margin: 0;
+}
+button{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 60%;
+    background-color: orange;
+    color: white;
+}
+
+.info{
+    text-align: center;
+}
+
+.fond2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url(./Images/Fond\ foot.png);
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.reseaux{
+    display: flex;
+}
+
+.reseaux img{
+    margin: 3px;
+    width: 30px;
+    height: 40%;
+}
+
+.bas_page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    width: 30%;
+}
